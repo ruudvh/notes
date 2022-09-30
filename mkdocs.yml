@@ -1,14 +1,13 @@
 # Project information
-# Project information
-site_name: ruud.is
-site_url: https://ruud.is/
+site_name: notes.ruud.is
+site_url: https://notes.ruud.is/
 site_author: Ruud van Houtum
 site_description: >-
   Personal Site
 
 # Repository
-repo_name: ruudvh/ruud.is
-repo_url: https://github.com/ruudvh/ruud.is
+repo_name: ruudvh/notes
+repo_url: https://github.com/ruudvh/notes
 
 # Copyright
 copyright: Created by Ruud. All content distributed under the MIT License, unless otherwise noted.
