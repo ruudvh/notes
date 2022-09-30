@@ -1,0 +1,141 @@
+# Project information
+# Project information
+site_name: ruud.is
+site_url: https://ruud.is/
+site_author: Ruud van Houtum
+site_description: >-
+  Personal Site
+
+# Repository
+repo_name: ruudvh/ruud.is
+repo_url: https://github.com/ruudvh/ruud.is
+
+# Copyright
+copyright: Created by Ruud. All content distributed under the MIT License, unless otherwise noted.
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/img/logo.png
+  favicon: assets/img/favicon.ico
+  icon:
+    logo: logo
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Colors
+  palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+  # Features
+  features:
+    - announce.dismiss
+    # - header.autohide
+    # - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    # - navigation.expand
+    # - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    # - toc.integrate
+
+# Custom CSS and JS   
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/custom.js
+  # Mathjax
+  - assets/js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Plugins
+plugins:
+  - search 
+  - git-authors
+  - social # install cairo and pillow
+  - git-revision-date-localized: # install
+      enable_creation_date: true
+      type: date
+      fallback_to_build_date: true
+  - minify: # install
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
+
+# Customization
+extra:
+  homepage: /deep-learning
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      auto_title: true
+      use_pygments: true
+      linenums: true
+      linenums_style: pymdownx-inline
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: ruudvh
+      repo: ruud.is
+
+
+
+
+
+
