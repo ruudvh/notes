@@ -9,6 +9,23 @@
   </p>
 </div>
 
+## Development
+
+You can preview your changes as you write your documentation.
+The server will automatically rebuild the site upon saving. Start it with:
+
+```
+mkdocs serve
+```
+
+Point your browser to localhost:8000 and you should see the site.
+
+When you're finished editing, you can build a static site with:
+
+```
+mkdocs build
+```
+
 ## Acknowledgements and Credits
 * Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
