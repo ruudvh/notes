@@ -10,7 +10,7 @@ repo_name: ruudvh/notes
 repo_url: https://github.com/ruudvh/notes
 
 # Copyright
-copyright: Created by Ruud. All content distributed under the MIT License, unless otherwise noted.
+copyright: All content distributed under the MIT License, unless otherwise noted.
 
 # Configuration
 theme:
@@ -21,27 +21,43 @@ theme:
   favicon: assets/img/favicon.ico
   icon:
     logo: logo
-
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+      
   # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
 
   # Colors
   palette:
-    # Dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-
     # Light mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
   # Features
   features:
+    - content.code.annotate 
+    # - content.tabs.link
+    - content.tooltips
     - announce.dismiss
     # - header.autohide
     # - navigation.instant
@@ -102,6 +118,7 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -110,7 +127,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_index: !!python/name:materialx.emoji.twemoji
   - pymdownx.highlight:
-      auto_title: true
+      auto_title: false
       use_pygments: true
       linenums: true
       linenums_style: pymdownx-inline

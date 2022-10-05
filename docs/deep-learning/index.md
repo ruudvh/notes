@@ -16,9 +16,3 @@ A slightly older video but a good introduction: [Andrew Ng: Artificial Intellige
 ## Videos
 
 Unfortunately this is not in video format. If you prefer to learn about Deep Learning in video format you can check out the free [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) on Coursera or the free [Practical Deep Learning](https://course.fast.ai/) course on Fast.AI.
-
-## Table of Contents
-
-1. Basics
-2. Shallow Neural Networks
-3. Deep Neural Networks

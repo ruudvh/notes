@@ -18,7 +18,6 @@
     --md-typeset-a-color: #80190a;
 }
 
-/* Layout */
-.md-grid {
-    max-width: 70rem;
+.md-typeset {
+    font-size: 0.7rem;
 }
