@@ -1,5 +1,7 @@
 <div id="top"></div>
 
+[![Deploy to Pages](https://github.com/ruudvh/notes/actions/workflows/pages.yml/badge.svg)](https://github.com/ruudvh/notes/actions/workflows/pages.yml)
+
 <div align="center">
   <h3 align="center">Personal notes</h3>
   <p align="center">
