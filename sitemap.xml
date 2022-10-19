@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://notes.ruud.is/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://notes.ruud.is/deep-learning/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.ruud.is/deep-learning/mlops/</loc>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://notes.ruud.is/notes/git/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://notes.ruud.is/notes/python/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://notes.ruud.is/notes/python/django/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
