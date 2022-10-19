@@ -8,8 +8,8 @@ hide:
 
 # Home
 
-Please note the following pages are a collection of notes regarding a variety of topics.
-Most have been written as cheatsheets for myself, or as (hopefully) helpful guides for friends.
+The following pages are a collection of notes regarding a variety of topics.
+Most have been written as cheat-sheets for myself, or as (hopefully) helpful guides for friends.
 
 Feel free to browse around, take what you need. All content distributed under the MIT license,
 unless otherwise noted.

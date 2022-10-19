@@ -13,6 +13,8 @@ A slightly older video but a good introduction: [Andrew Ng: Artificial Intellige
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/21EiKfQYZXc" title="YouTube Andrew Ng: Artificial Intelligence is the New Electricity" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Videos
+## Other Resources
 
 Unfortunately this is not in video format. If you prefer to learn about Deep Learning in video format you can check out the free [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) on Coursera or the free [Practical Deep Learning](https://course.fast.ai/) course on Fast.AI.
+
+For an alternative in depth overview I would recommend the [Machine Learning Mastery](https://machinelearningmastery.com/start-here/#getstarted) website.

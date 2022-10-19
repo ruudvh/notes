@@ -4,7 +4,7 @@
 >
 > -- <cite>djangoproject.com</cite>
 
-The official [Django] website provides great resources for begginers to get up and running. 
+The official [Django] website provides great resources for beginners to get up and running. 
 But the package installer and virtual environment might confuse you.
 
 1. Install Python
@@ -40,7 +40,7 @@ But the package installer and virtual environment might confuse you.
 
     !!! question "What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?"
 
-        There are many different package and virtual environment managers available. Each created to solve a unique issue or to solve it
+        There are many different packages and virtual environment managers available. Each created to solve a unique issue or to solve it
         better/faster/more efficient than the other. For now you can safely ignore all of them and just use the standard shipped `pip` and `venv`.
 
     !!! tip 
@@ -59,7 +59,7 @@ But the package installer and virtual environment might confuse you.
     C:\dev\python\fungame\.venv\Scripts\activate
     ```
 
-    Once activate your command shell will be updated and include the name of your `venv` in parenthesis.
+    Once activate, your command shell will be updated and include the name of your `venv` in parentheses.
     ```console linenums="0" hl_lines="2"
     C:\dev\python\fungame> .venv\Scripts\Activate
     (.venv) PS C:\dev\python\fungame>
@@ -67,7 +67,7 @@ But the package installer and virtual environment might confuse you.
 
 7. Install Django
 
-    Once your virtual environment is activated you can use the command shell like you usually would.
+    Once your virtual environment is activated, you can use the command shell like you usually would.
     In this case we will install Django.
 
     ```console linenums="0"
@@ -77,7 +77,7 @@ But the package installer and virtual environment might confuse you.
 8. Git clone repository
 
     At this point it is recommended to initiate and create your first `git commit`. This way you have a nice clean
-    starting point incase anything goes wrong. For more info about `git` see the [git notes].
+    starting point in case anything goes wrong. For more info about `git` see the [git notes].
 
 9. Install requirements
 
@@ -90,6 +90,8 @@ But the package installer and virtual environment might confuse you.
     ```console linenums="0"
     deactivate
     ```
+
+    
 ## Links
 
 - Official [Django] website
